@@ -43,7 +43,7 @@ None
   
 and your code can invoke that service as follows:
 
-    this.$.jsonrpc.invoke('serviceXXX', [arg0, arg1...], cb)
+    this.$.jsonrpc.invoke('serviceXXX', 'foo', [arg0, arg1...], cb)
     
     
 where cb is a callback with standard node.js convention to return results/errors
